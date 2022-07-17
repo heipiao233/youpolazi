@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "youpolazi:edible_oil_bottle"
+  },
+  "result": "youpolazi:edible_oil_bottle_hot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

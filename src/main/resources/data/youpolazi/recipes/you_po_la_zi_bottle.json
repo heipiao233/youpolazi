@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "youpolazi:paprika"
+      },
+      {
+        "item": "youpolazi:sesame"
+      },
+      {
+        "item": "youpolazi:zanthoxylum"
+      },
+      {
+        "item": "youpolazi:edible_oil_bottle_hot"
+      }
+    ],
+    "result": {
+      "item": "youpolazi:you_po_la_zi_bottle",
+      "count": 1
+    }
+  }

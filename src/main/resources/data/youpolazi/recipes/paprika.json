@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "youpolazi:pepper"
+      }
+    ],
+    "result": {
+      "item": "youpolazi:paprika",
+      "count": 4
+    }
+  }
