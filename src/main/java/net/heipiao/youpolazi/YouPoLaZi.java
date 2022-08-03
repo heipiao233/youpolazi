@@ -36,11 +36,11 @@ public class YouPoLaZi
             if((item=player.getMainHandItem()).is(Items.YOU_PO_LA_ZI_BOTTLE.get())){
                 player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 20*20));
                 player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 20*20));
-                item.shrink(1);
+                if(!player.getAbilities().instabuild)item.shrink(1);
             }else if((item=player.getOffhandItem()).is(Items.YOU_PO_LA_ZI_BOTTLE.get())){
                 player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 20*20));
                 player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 20*20));
-                item.shrink(1);
+                if(!player.getAbilities().instabuild)item.shrink(1);
             }
         }
     }
